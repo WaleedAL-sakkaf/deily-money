@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="calcGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1565C0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0D47A1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFA000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8F00;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="230" fill="url(#calcGrad)"/>
+  
+  <!-- Calculator body -->
+  <rect x="136" y="120" width="240" height="280" rx="20" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2"/>
+  
+  <!-- Calculator screen -->
+  <rect x="156" y="140" width="200" height="60" rx="5" fill="#E8F5E9"/>
+  <text x="336" y="185" font-family="Arial" font-size="30" text-anchor="end" fill="#333333" direction="rtl">١٢٣٤</text>
+  
+  <!-- Calculator buttons -->
+  <!-- Row 1 -->
+  <rect x="156" y="220" width="42" height="42" rx="5" fill="#EEEEEE"/>
+  <text x="177" y="247" font-family="Arial" font-size="20" text-anchor="middle" fill="#333333">C</text>
+  
+  <rect x="208" y="220" width="42" height="42" rx="5" fill="#EEEEEE"/>
+  <text x="229" y="247" font-family="Arial" font-size="20" text-anchor="middle" fill="#333333">%</text>
+  
+  <rect x="260" y="220" width="42" height="42" rx="5" fill="#EEEEEE"/>
+  <text x="281" y="247" font-family="Arial" font-size="20" text-anchor="middle" fill="#333333">÷</text>
+  
+  <rect x="312" y="220" width="42" height="42" rx="5" fill="url(#goldGrad)"/>
+  <text x="333" y="247" font-family="Arial" font-size="20" text-anchor="middle" fill="#FFFFFF">×</text>
+  
+  <!-- Row 2 -->
+  <rect x="156" y="272" width="42" height="42" rx="5" fill="#EEEEEE"/>
+  <text x="177" y="299" font-family="Arial" font-size="20" text-anchor="middle" fill="#333333">٧</text>
+  
+  <rect x="208" y="272" width="42" height="42" rx="5" fill="#EEEEEE"/>
+  <text x="229" y="299" font-family="Arial" font-size="20" text-anchor="middle" fill="#333333">٨</text>
+  
+  <rect x="260" y="272" width="42" height="42" rx="5" fill="#EEEEEE"/>
+  <text x="281" y="299" font-family="Arial" font-size="20" text-anchor="middle" fill="#333333">٩</text>
+  
+  <rect x="312" y="272" width="42" height="42" rx="5" fill="url(#goldGrad)"/>
+  <text x="333" y="299" font-family="Arial" font-size="20" text-anchor="middle" fill="#FFFFFF">-</text>
+  
+  <!-- Row 3 -->
+  <rect x="156" y="324" width="42" height="42" rx="5" fill="#EEEEEE"/>
+  <text x="177" y="351" font-family="Arial" font-size="20" text-anchor="middle" fill="#333333">٤</text>
+  
+  <rect x="208" y="324" width="42" height="42" rx="5" fill="#EEEEEE"/>
+  <text x="229" y="351" font-family="Arial" font-size="20" text-anchor="middle" fill="#333333">٥</text>
+  
+  <rect x="260" y="324" width="42" height="42" rx="5" fill="#EEEEEE"/>
+  <text x="281" y="351" font-family="Arial" font-size="20" text-anchor="middle" fill="#333333">٦</text>
+  
+  <rect x="312" y="324" width="42" height="42" rx="5" fill="url(#goldGrad)"/>
+  <text x="333" y="351" font-family="Arial" font-size="20" text-anchor="middle" fill="#FFFFFF">+</text>
+</svg>

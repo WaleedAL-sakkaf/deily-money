@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1565C0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0D47A1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFA000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8F00;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="230" fill="url(#bgGrad)"/>
+  
+  <!-- Decorative Islamic pattern border -->
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-opacity="0.2"/>
+  <circle cx="256" cy="256" r="190" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-opacity="0.15"/>
+  
+  <!-- Stylized Arabic word for "Money/Accounting" -->
+  <path d="M150,230 C160,210 190,200 220,200 C250,200 270,210 290,230 C310,250 320,270 320,290 C320,310 310,330 280,330 L240,330 C240,310 260,300 280,300 C290,300 300,290 300,280 C300,270 290,260 270,260 C250,260 230,270 230,290 L230,330 L210,330 L210,290 C210,270 190,260 170,260 C150,260 140,270 140,280 C140,290 150,300 170,300 C190,300 210,310 210,330 L170,330 C140,330 120,310 120,290 C120,270 140,250 150,230 Z" fill="url(#goldGrad)"/>
+  
+  <!-- Arabic numeral decorations -->
+  <text x="340" y="230" font-family="Arial" font-size="40" text-anchor="middle" fill="#FFFFFF" opacity="0.8">١</text>
+  <text x="170" y="180" font-family="Arial" font-size="40" text-anchor="middle" fill="#FFFFFF" opacity="0.8">٢</text>
+  <text x="360" y="310" font-family="Arial" font-size="40" text-anchor="middle" fill="#FFFFFF" opacity="0.8">٣</text>
+  
+  <!-- Traditional accounting book with Arabic binding (RTL style) -->
+  <path d="M385,350 L385,160 C385,155 380,150 375,150 L137,150 C132,150 127,155 127,160 L127,350 C127,355 132,360 137,360 L375,360 C380,360 385,355 385,350 Z" fill="#FFFFFF" opacity="0.15"/>
+  <path d="M385,350 L385,160 C385,155 380,150 375,150 L365,150 C370,150 375,155 375,160 L375,350 C375,355 370,360 365,360 L375,360 C380,360 385,355 385,350 Z" fill="url(#goldGrad)" opacity="0.8"/>
+</svg>

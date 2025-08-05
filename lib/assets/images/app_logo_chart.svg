@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradChart" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1565C0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0D47A1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="barGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFA000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8F00;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="barGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#29B6F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0288D1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="230" fill="url(#bgGradChart)"/>
+  
+  <!-- Paper background for chart -->
+  <rect x="135" y="135" width="250" height="250" rx="10" fill="#FFFFFF" opacity="0.9"/>
+  
+  <!-- Chart title in Arabic style -->
+  <text x="260" y="165" font-family="Arial" font-size="18" text-anchor="middle" fill="#333333" direction="rtl" font-weight="bold">التقرير المالي</text>
+  
+  <!-- Chart grid -->
+  <line x1="155" y1="340" x2="365" y2="340" stroke="#E0E0E0" stroke-width="2"/>
+  <line x1="155" y1="300" x2="365" y2="300" stroke="#E0E0E0" stroke-width="1"/>
+  <line x1="155" y1="260" x2="365" y2="260" stroke="#E0E0E0" stroke-width="1"/>
+  <line x1="155" y1="220" x2="365" y2="220" stroke="#E0E0E0" stroke-width="1"/>
+  <line x1="155" y1="180" x2="365" y2="180" stroke="#E0E0E0" stroke-width="1"/>
+  
+  <!-- Chart bars (ordered right to left for RTL) -->
+  <rect x="320" y="210" width="30" height="130" rx="3" fill="url(#barGrad1)"/>
+  <rect x="270" y="260" width="30" height="80" rx="3" fill="url(#barGrad1)"/>
+  <rect x="220" y="190" width="30" height="150" rx="3" fill="url(#barGrad1)"/>
+  <rect x="170" y="240" width="30" height="100" rx="3" fill="url(#barGrad1)"/>
+  
+  <!-- Line chart overlay -->
+  <polyline points="185,200 235,230 285,210 335,180" fill="none" stroke="url(#barGrad2)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="185" cy="200" r="5" fill="#FFFFFF" stroke="url(#barGrad2)" stroke-width="2"/>
+  <circle cx="235" cy="230" r="5" fill="#FFFFFF" stroke="url(#barGrad2)" stroke-width="2"/>
+  <circle cx="285" cy="210" r="5" fill="#FFFFFF" stroke="url(#barGrad2)" stroke-width="2"/>
+  <circle cx="335" cy="180" r="5" fill="#FFFFFF" stroke="url(#barGrad2)" stroke-width="2"/>
+  
+  <!-- Arabic month labels -->
+  <text x="185" y="355" font-family="Arial" font-size="12" text-anchor="middle" fill="#555555">محرم</text>
+  <text x="235" y="355" font-family="Arial" font-size="12" text-anchor="middle" fill="#555555">صفر</text>
+  <text x="285" y="355" font-family="Arial" font-size="12" text-anchor="middle" fill="#555555">ربيع</text>
+  <text x="335" y="355" font-family="Arial" font-size="12" text-anchor="middle" fill="#555555">رجب</text>
+</svg>

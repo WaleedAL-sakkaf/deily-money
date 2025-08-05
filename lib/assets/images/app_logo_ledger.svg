@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ledgerGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1565C0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0D47A1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="ledgerGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFA000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8F00;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="230" fill="url(#ledgerGrad1)"/>
+  <!-- Ledger book -->
+  <path d="M160,120 L360,120 C370,120 380,130 380,140 L380,380 C380,390 370,400 360,400 L160,400 C150,400 140,390 140,380 L140,140 C140,130 150,120 160,120 Z" fill="#FFFFFF"/>
+  <!-- Ledger binding -->
+  <path d="M145,120 L165,120 C155,120 150,130 150,140 L150,380 C150,390 155,400 165,400 L145,400 C135,400 130,390 130,380 L130,140 C130,130 135,120 145,120 Z" fill="#E0E0E0"/>
+  <!-- Ledger lines -->
+  <path d="M170,160 L360,160" stroke="#E0E0E0" stroke-width="4"/>
+  <path d="M170,200 L360,200" stroke="#E0E0E0" stroke-width="4"/>
+  <path d="M170,240 L360,240" stroke="#E0E0E0" stroke-width="4"/>
+  <path d="M170,280 L360,280" stroke="#E0E0E0" stroke-width="4"/>
+  <path d="M170,320 L360,320" stroke="#E0E0E0" stroke-width="4"/>
+  <path d="M170,360 L360,360" stroke="#E0E0E0" stroke-width="4"/>
+  <!-- Financial symbol -->
+  <circle cx="320" cy="180" r="30" fill="url(#ledgerGrad2)"/>
+  <text x="320" y="190" font-family="Arial" font-size="40" text-anchor="middle" fill="white">$</text>
+  <!-- Arabic text symbols -->
+  <path d="M200,190 L280,190" stroke="#555555" stroke-width="6"/>
+  <path d="M180,230 L260,230" stroke="#555555" stroke-width="6"/>
+  <path d="M220,270 L300,270" stroke="#555555" stroke-width="6"/>
+  <path d="M190,310 L270,310" stroke="#555555" stroke-width="6"/>
+  <path d="M210,350 L290,350" stroke="#555555" stroke-width="6"/>
+</svg>
